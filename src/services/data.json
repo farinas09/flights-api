@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "date": "2020-01-01",
+    "weather": "rainy",
+    "visibility": "poor",
+    "comment": "Pretty scary flight, I'm glad I'm alive"
+  },
+  {
+    "id": 2,
+    "date": "2020-01-02",
+    "weather": "sunny",
+    "visibility": "good",
+    "comment": "Pretty scary flight, I'm glad I'm alive"
+  },
+  {
+    "id": 3,
+    "date": "2020-01-04",
+    "weather": "rainy",
+    "visibility": "poor",
+    "comment": "Pretty scary flight, I'm glad I'm alive"
+  },
+  {
+    "id": 4,
+    "date": "2020-01-06",
+    "weather": "sunny",
+    "visibility": "good",
+    "comment": "Pretty scary flight, I'm glad I'm alive"
+  },
+  {
+    "id": 5,
+    "date": "2020-01-07",
+    "weather": "rainy",
+    "visibility": "poor",
+    "comment": "Pretty scary flight, I'm glad I'm alive"
+  },
+  {
+    "id": 6,
+    "date": "2020-01-08",
+    "weather": "sunny",
+    "visibility": "good",
+    "comment": "Pretty scary flight, I'm glad I'm alive"
+  },
+  {
+    "id": 7,
+    "date": "2020-01-09",
+    "weather": "rainy",
+    "visibility": "poor",
+    "comment": "Pretty scary flight, I'm glad I'm alive"
+  }
+]
