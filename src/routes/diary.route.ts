@@ -19,8 +19,8 @@ router.post('/', (req, res) => {
     const newDiaryEntry = toNewDiaryEntry(req.body);
     const diaryResponse = diaryService.addDiaryEntry(newDiaryEntry);
     res.status(200).json(diaryResponse);
-  } catch (e) {
-    res.status(404).json(e);
+  } catch (e: any) {
+    res.status(400).json(e.message);
   }
 });
 

@@ -1,4 +1,5 @@
-import { DiaryEntryRequest, Visibility, Weather } from '../types';
+import { Visibility, Weather } from '../../enums';
+import { DiaryEntryRequest } from '../types';
 
 const isString = (input: any) => {
   return typeof input === 'string' || input instanceof String;
@@ -27,7 +28,7 @@ const parseDate = (inputDate: any): string => {
   if (!isString(inputDate) || !isDate(inputDate)) {
     throw new Error('Incorrect or missing date');
   }
-  return inputDate;
+  return new Date(inputDate).toLocaleString();
 };
 
 const parseWeather = (inputWeather: any): Weather => {
